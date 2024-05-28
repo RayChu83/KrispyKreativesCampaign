@@ -5,7 +5,7 @@ import Product from './components/Product';
 
 function App() {
   return (
-    <main className='max-w-5xl m-auto space-y-2'>
+    <main className='max-w-5xl m-auto space-y-3'>
       <Hero />
       <Advertisement />
       <Product />

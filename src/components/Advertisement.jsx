@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Advertisement() {
   return (
-    <section className="flex gap-x-10 md:flex-nowrap flex-wrap space-y-2">
+    <section className="flex gap-5 md:flex-nowrap flex-wrap space-y-2">
       <video
-        width="320"
-        height="240"
-        className="rounded-xl drop-shadow-[7px_6px_0px_rgba(0,175,239,1)] m-auto"
+        height="350px"
+        width="350px"
+        className="drop-shadow-[7px_6px_0px_rgba(0,175,239,1)] m-auto p-3 bg-black"
         poster="/KrispyKreativesThumbnail.png"
         controls
       >
