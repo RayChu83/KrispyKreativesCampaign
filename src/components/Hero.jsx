@@ -10,7 +10,7 @@ export default function Hero() {
         </h1>
         <button className="p-2 text-lg bg-[#00afef] text-white tracking-wider transition-colors duration-150 drop-shadow-[5px_4px_0px_rgba(238,20,31,1)]">Pre-Order Now!</button>
       </span>
-      <img src="/KrispyKreativesHero.png" alt="Spiderman" className="animate-bounce transition-all duration-200 max-h-[400px] max-w-[400px]"/>
+      <img src="/KrispyKreativesHero.png" alt="Spiderman" className="animate-bounce transition-all duration-200 max-h-[400px] max-w-[400px] m-auto"/>
     </section>
   );
 }

@@ -9,4 +9,13 @@ body {
     font-family: "Bangers";
     box-sizing: border-box;
     padding-bottom: 4rem;
+    background-image: url("/public/KrispyKreativesWebBackground.png");
+
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
