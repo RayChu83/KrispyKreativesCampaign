@@ -8,7 +8,7 @@ export default function Hero() {
           Snap, Crackle, Swing <br className="md:block hidden" /> like {" "}
           <span className="text-[#ee141f]">Spiderman</span>!!!
         </h1>
-        <button className="p-2 text-lg bg-[#00afef] text-white tracking-wider transition-colors duration-150 drop-shadow-[5px_4px_0px_rgba(238,20,31,1)]">Pre-Order Now!</button>
+        <a href="https://www.ricekrispies.com/" target="_blank" rel="noreferrer" className="block w-fit p-2 text-lg bg-[#00afef] hover:bg-[#ee141f] text-white tracking-wider drop-shadow-[5px_4px_0px_rgba(238,20,31,1)] hover:drop-shadow-[5px_4px_0px_rgba(0,175,239,1)]">Pre-Order Now!</a>
       </span>
       <img src="/KrispyKreativesHero.png" alt="Spiderman" className="animate-bounce transition-all duration-200 max-h-[400px] max-w-[400px] m-auto"/>
     </section>
